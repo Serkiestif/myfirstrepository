@@ -55,6 +55,6 @@ public class BaseTest {
  @AfterMethod
  public void closeDriver() {
 	 extentReports.flush();
-	// driver.close();
+	 driver.close();
  }
 }
